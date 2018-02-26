@@ -12,6 +12,10 @@
 		EBB692431FD5A20200EAD821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB692411FD5A20200EAD821 /* Main.storyboard */; };
 		EBB692451FD5A20200EAD821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB692441FD5A20200EAD821 /* Assets.xcassets */; };
 		EBB692481FD5A20200EAD821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB692461FD5A20200EAD821 /* LaunchScreen.storyboard */; };
+		EBB692501FD5A9B100EAD821 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB6924F1FD5A9B100EAD821 /* Square.swift */; };
+		EBB692521FD5A9C200EAD821 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB692511FD5A9C200EAD821 /* Board.swift */; };
+		EBB692541FD5B03100EAD821 /* IDETemplateMacros.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBB692531FD5B03100EAD821 /* IDETemplateMacros.plist */; };
+		EBB692701FD5DF7100EAD821 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB6926F1FD5DF7100EAD821 /* SquareButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		EBB692441FD5A20200EAD821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBB692471FD5A20200EAD821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBB692491FD5A20200EAD821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB6924F1FD5A9B100EAD821 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		EBB692511FD5A9C200EAD821 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		EBB692531FD5B03100EAD821 /* IDETemplateMacros.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IDETemplateMacros.plist; sourceTree = "<group>"; };
+		EBB6926F1FD5DF7100EAD821 /* SquareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				EBB692441FD5A20200EAD821 /* Assets.xcassets */,
 				EBB692461FD5A20200EAD821 /* LaunchScreen.storyboard */,
 				EBB692491FD5A20200EAD821 /* Info.plist */,
+				EBB6924F1FD5A9B100EAD821 /* Square.swift */,
+				EBB692511FD5A9C200EAD821 /* Board.swift */,
+				EBB692531FD5B03100EAD821 /* IDETemplateMacros.plist */,
+				EBB6926F1FD5DF7100EAD821 /* SquareButton.swift */,
 			);
 			path = Mineswifter;
 			sourceTree = "<group>";
@@ -92,7 +104,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Krishnaiah, Jahnavi (Contractor)";
+				ORGANIZATIONNAME = "Krishnaiah, Jahnavi ";
 				TargetAttributes = {
 					EBB692391FD5A20200EAD821 = {
 						CreatedOnToolsVersion = 9.0.1;
@@ -123,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB692541FD5B03100EAD821 /* IDETemplateMacros.plist in Resources */,
 				EBB692481FD5A20200EAD821 /* LaunchScreen.storyboard in Resources */,
 				EBB692451FD5A20200EAD821 /* Assets.xcassets in Resources */,
 				EBB692431FD5A20200EAD821 /* Main.storyboard in Resources */,
@@ -136,7 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB692701FD5DF7100EAD821 /* SquareButton.swift in Sources */,
+				EBB692501FD5A9B100EAD821 /* Square.swift in Sources */,
 				EBB692401FD5A20200EAD821 /* ViewController.swift in Sources */,
+				EBB692521FD5A9C200EAD821 /* Board.swift in Sources */,
 				EBB6923E1FD5A20200EAD821 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
